@@ -1,4 +1,4 @@
-# pgm6. Python Program to check Armstrong Number
+# pgm6. Python Program to check Armstrong Number and Generate Armstrong numbers by given limit.
 
 from math import floor
 
