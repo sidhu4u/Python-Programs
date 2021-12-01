@@ -3,7 +3,7 @@
 limit = int(input("Enter Range : "))
 i, j = 0, 1
 print(i, j, end=" ")
-for r in range(2, limit):
+for r in range(limit):
     add = i + j
     print(add, end=" ")
     i = j
