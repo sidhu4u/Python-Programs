@@ -21,7 +21,7 @@ pgm8) Python program to
 
 pgm9) Python Program for n-th Fibonacci number
 
-pgm10) Python Program for How to check if a given number is Fibonacci number?
+pgm10) Python Program to check if a given number is in Fibonacci number
 
 pgm11) Python Program for n'th multiple of a number in Fibonacci Series
 

@@ -1,4 +1,4 @@
-# pgm10) Python Program to check if a given number is Fibonacci number.
+# pgm10) Python Program to check if a given number is in Fibonacci number.
 
 num = int(input("Enter a number : "))
 
