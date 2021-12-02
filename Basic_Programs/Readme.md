@@ -21,12 +21,13 @@ pgm8) Python program to
 
 pgm9) Python Program for n-th Fibonacci number
 
-pgm10) Python Program to check if a given number is in Fibonacci number
+pgm10) Python Program to
 
-pgm11) Python Program for n'th multiple of a number in Fibonacci Series
+    - check if a given number is in Fibonacci series.
+    - find the index position in Fibonacci series.
 
-pgm12) Program to print ASCII Value of a character
+pgm11) Program to print ASCII Value of a character
 
-pgm13) Python Program for Sum of squares of first n natural numbers
+pgm12) Python Program for Sum of squares of first n natural numbers
 
-pgm14) Python Program for cube sum of first n natural numbers
+pgm13) Python Program for cube sum of first n natural numbers
