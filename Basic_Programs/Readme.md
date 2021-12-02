@@ -26,12 +26,13 @@ pgm10) Python Program to
     - check if a given number is in Fibonacci series.
     - find the index position in Fibonacci series.
 
-pgm11) Program to print ASCII Value of a character
+pgm11) Program to print
+
+    - ASCII Value of a character
+    - Range of ASCII charater and its values
 
 pgm12) Python Program for Sum of
 
     - n natural numbers
     - squares of n natural numbers
     - cube of n natural numbers
-
-pgm13) Python Program for cube sum of first n natural numbers
