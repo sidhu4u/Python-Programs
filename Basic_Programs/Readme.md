@@ -28,6 +28,10 @@ pgm10) Python Program to
 
 pgm11) Program to print ASCII Value of a character
 
-pgm12) Python Program for Sum of squares of first n natural numbers
+pgm12) Python Program for Sum of
+
+    - n natural numbers
+    - squares of n natural numbers
+    - cube of n natural numbers
 
 pgm13) Python Program for cube sum of first n natural numbers
