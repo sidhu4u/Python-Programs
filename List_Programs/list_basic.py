@@ -1,5 +1,6 @@
-# 1.	Python program to find length of list
-# 2.	Python program to check if element exists in list
+# 1. Python program to find length of list
+# 2. Python program to check if element exists in list
+# 3. Python program to find sum of elements in list
 
 
 from list_functions import list_len, ele_exist_list, sum_ele
