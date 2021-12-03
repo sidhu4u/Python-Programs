@@ -14,7 +14,7 @@ print("1.Python program to find length of list\n\
 5.Python program to print even and odd numbers in a list")
 
 
-list = []
+# list = []
 try:
     choice = int(input("Choice : "))
     if choice == 1:
@@ -27,7 +27,7 @@ try:
         ele = input("Search element = ")
 
         b = ele_exist_list(list, ele)
-        if b:
+        if b[1] != 0:
             print(f"Element Present {b[1]} times at Position {b[0]}")
         else:
             print("Element Not Present")
