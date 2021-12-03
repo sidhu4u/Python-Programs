@@ -18,7 +18,6 @@ print("1.Python program to find length of list\n\
 7.Remove multiple elements from a list in Python")
 
 
-# list = []
 try:
     choice = int(input("Choice : "))
     if choice == 1:
