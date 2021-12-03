@@ -1,6 +1,7 @@
 
 def list_ele():
     list = []
+    print("Enter the elements into List...")
     while True:
         n = input("Element(Press 'n' to Quit) = ")
         if n == 'N' or n == 'n':
@@ -13,6 +14,7 @@ def list_ele():
 def number_list():
     n = 0
     list = []
+    print("Enter the elements into List...")
     while True:
         try:
             n = int(input("Element(Press '0' to Quit) = "))
@@ -63,3 +65,27 @@ def even_odd_list(list):
         else:
             o.append(i)
     return e, o
+
+
+def pos_neg_list(list):
+    p = []
+    n = []
+    for i in list:
+        if i > 0:
+            p.append(i)
+        else:
+            n.append(i)
+    return p, n
+
+
+def rem_multiple_ele(list, n, pos):
+    if pos == 'e':
+        while n != 0:
+            list.pop()
+            n -= 1
+        return list
+    else:
+        while n != 0:
+            list.remove(n)
+            n -= 1
+        return list

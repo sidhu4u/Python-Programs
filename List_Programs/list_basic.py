@@ -3,15 +3,19 @@
 # 3. Python program to find sum of elements in list
 # 4. Python program to Multiply all numbers in the list
 # 5. Python program to print even and odd numbers in a list
+# 6. Python program to print positive and negative numbers in a list
+# 7. Remove multiple elements from a list in Python
 
 
-from list_functions import list_ele, number_list, list_len, ele_exist_list, sum_ele, mul_ele, even_odd_list
+from list_functions import list_ele, number_list, list_len, ele_exist_list, sum_ele, mul_ele, even_odd_list, pos_neg_list, rem_multiple_ele
 
 print("1.Python program to find length of list\n\
 2.Python program to check if element exists in list\n\
 3.Python program to find sum of elements in list\n\
 4.Python program to Multiply all numbers in the list\n\
-5.Python program to print even and odd numbers in a list")
+5.Python program to print even and odd numbers in a list\n\
+6.Python program to print positive and negative numbers in a list\n\
+7.Remove multiple elements from a list in Python")
 
 
 # list = []
@@ -45,6 +49,24 @@ try:
         res = even_odd_list(number_list())
         print("Even numbers in list = ", res[0])
         print("Odd numbers in list = ", res[1])
+
+    elif choice == 6:
+        # 6.Python program to print positive and negative numbers in a list
+        res = pos_neg_list(number_list())
+        print("Positive numbers in list = ", res[0])
+        print("Negative numbers in list = ", res[1])
+
+    elif choice == 7:
+        # 7.Remove multiple elements from a list in Python
+        list = number_list()
+        n = int(input("How many ele tobe removed (number only) : "))
+        pos = input("Enter position Front(F) or Rear-end(E) : ").lower()
+        f_r = {
+            'f': "Front",
+            'e': "Rear-end"
+        }
+        print(f"After removing elements at the {f_r[pos]} of list :\n",
+              rem_multiple_ele(list, n, pos))
 
     else:
         print("Wrong Choice!")

@@ -7,3 +7,5 @@
 3. Python program to find sum of elements in list
 4. Python program to Multiply all numbers in the list
 5. Python program to print even and odd numbers in a list
+6. Python program to print positive and negative numbers in a list
+7. Remove multiple elements from a list in Python
