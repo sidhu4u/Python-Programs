@@ -1,3 +1,5 @@
+from math import ceil
+
 
 def list_ele():
     list = []
@@ -84,8 +86,30 @@ def rem_multiple_ele(list, n, pos):
             list.pop()
             n -= 1
         return list
-    else:
+    elif pos == 'm':
         while n != 0:
-            list.remove(n)
+            d = ceil(len(list)/2)
+            list.pop(d - 1)  # remove(d)
             n -= 1
         return list
+    else:
+        while n != 0:
+            list.pop(n - 1)  # remove(n)
+            n -= 1
+        return list
+
+
+def remove_dup_list(list):
+    d = []
+    for x in list:
+        if x not in d:
+            d.append(x)
+    return d
+
+
+def break_list(list, n):
+    br_li = []
+    while n != 0:
+        br_li.append(list.pop(0))
+        n -= 1
+    return [br_li, list]

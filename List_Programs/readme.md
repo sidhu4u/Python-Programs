@@ -9,3 +9,5 @@
 5. Python program to print even and odd numbers in a list
 6. Python program to print positive and negative numbers in a list
 7. Remove multiple elements from a list in Python
+8. Python program to print duplicates from a list of integers
+9. Break a list into chunks of size N in Python
