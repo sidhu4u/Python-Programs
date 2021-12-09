@@ -1,6 +1,6 @@
 # List Programs
 
-## These programs are in 'list_basic.py' file
+## These programs are in 'main.py' file
 
 1. Python program to find length of list
 2. Python program to check if element exists in list
