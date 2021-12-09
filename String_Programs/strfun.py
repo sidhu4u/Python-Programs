@@ -1,3 +1,6 @@
+from math import ceil
+
+
 def reverse(s):
     s = s[::-1]
     return s
@@ -14,3 +17,9 @@ def charremove(s, c):
 
 def substring(s, substring):
     return substring in s, s.count(substring)
+
+
+def padding(s, val, sym):
+    l = ceil(val/2)
+    r = val - l
+    return f"{sym*l}{s}{sym*r}"

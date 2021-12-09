@@ -1,20 +1,4 @@
-from strfun import reverse, charremove, substring
-# def reverse(s):
-#     s = s[::-1]
-#     return s
-
-
-# def charremove(s, c):
-#     s1 = ''
-#     for i in range(len(s)):
-#         if s[i] == c:
-#             continue
-#         s1 += s[i]
-#     return s1
-
-
-# def substring(s, substring):
-#     return substring in s, s.count(substring)
+from strfun import reverse, charremove, substring, padding
 
 
 def pgm1():
@@ -44,6 +28,13 @@ def pgm4():
         return f"substring '{subs}' present {sub[1]} times in Given string."
 
 
+def pgm5():
+    s = input("Enter String or word :")
+    sym = input("Enter symbol to padd left and right : ")
+    size = int(input("Enter size (in numbers) : "))
+    return padding(s, size, sym)
+
+
 def invalid():
     return "Invalid Choice!"
 
@@ -52,7 +43,8 @@ question_choice = {
     '1': pgm1,
     '2': pgm2,
     '3': pgm3,
-    '4': pgm4
+    '4': pgm4,
+    '5': pgm5
 
 
 }
