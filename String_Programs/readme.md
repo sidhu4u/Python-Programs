@@ -13,3 +13,5 @@
 5.Padding left and right of the string with given symbol using python
 
 6.Remove all punctuations marks from a given string in Python
+
+7.Count the number of times each words appeared in given string using Python

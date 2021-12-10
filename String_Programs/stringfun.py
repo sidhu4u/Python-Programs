@@ -1,4 +1,4 @@
-from strfun import reverse, charremove, substring, padding, remove_punctuations
+from strfun import reverse, charremove, substring, padding, remove_punctuations, count_duplicate
 
 
 def pgm1():
@@ -40,6 +40,17 @@ def pgm6():
     return f"After removing punctuations marks words :\n{remove_punctuations(s)}"
 
 
+def pgm7():
+    s = input("Enter String or word :")
+    res = count_duplicate(s)
+    print(len(res[0]))
+    out = ''
+    print("Each character count :")
+    for i in range(len(res[0])):
+        out += f"{res[0][i]} = {res[1][i]} , "
+    return out
+
+
 def invalid():
     return "Invalid Choice!"
 
@@ -50,7 +61,8 @@ question_choice = {
     '3': pgm3,
     '4': pgm4,
     '5': pgm5,
-    '6': pgm6
+    '6': pgm6,
+    '7': pgm7
 }
 
 
