@@ -34,17 +34,3 @@ def remove_punctuations(s):
             sub += i
             j += 1
     return sub
-
-# def remove_duplicate(s):
-#     uni = []
-#     for i in s.split(" "):
-#         if i not in uni:  # in (uni.lower() and uni.upper()):
-#             uni.append(i)  # += i + " "
-#     uni = ' '.join(uni)
-#     print(' '.join(uni))
-#     # unique = ''
-#     # for i in uni.split(" "):
-#     #     if i not in i.capitalize() and i not in unique:
-#     #         unique += i + " "
-#     # print(unique)
-#     return uni

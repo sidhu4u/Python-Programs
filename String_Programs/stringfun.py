@@ -51,8 +51,6 @@ question_choice = {
     '4': pgm4,
     '5': pgm5,
     '6': pgm6
-
-
 }
 
 
