@@ -4,6 +4,7 @@
 3.	Remove given character from string in Python
 4.	Python program to Check if a Substring is Present with its frequency of occurance in a Given String
 5.  Padding left and right of the string with given symbol using python
+6.  Remove all duplicates from a given string in Python
 '''
 
 from stringfun import choices

@@ -1,4 +1,4 @@
-from strfun import reverse, charremove, substring, padding
+from strfun import reverse, charremove, substring, padding, remove_punctuations
 
 
 def pgm1():
@@ -35,6 +35,11 @@ def pgm5():
     return padding(s, size, sym)
 
 
+def pgm6():
+    s = input("Enter String or word :")
+    return f"After removing punctuations marks words :\n{remove_punctuations(s)}"
+
+
 def invalid():
     return "Invalid Choice!"
 
@@ -44,7 +49,8 @@ question_choice = {
     '2': pgm2,
     '3': pgm3,
     '4': pgm4,
-    '5': pgm5
+    '5': pgm5,
+    '6': pgm6
 
 
 }
