@@ -75,6 +75,7 @@ try:
         print("After Breaking lists = ", break_list(list, n))
 
     elif choice == 10:
+        # 10. Generating Number-Table by giving starting and ending values.
         print("Generating the 'Number-table' by given starting and ending value")
         Range1 = abs(int(input("Enter the starting(lower bound) number : ")))
         Range2 = abs(int(input("Enter the ending(upper bound) number : ")))
