@@ -113,3 +113,11 @@ def break_list(list, n):
         br_li.append(list.pop(0))
         n -= 1
     return [br_li, list]
+
+
+def number_table(lb, ub):
+    num_list = []
+    for table in range(lb, ub+1):
+        newlist = [x for x in range(table, (table*10)+1, table)]
+        num_list.append(newlist)
+    return num_list

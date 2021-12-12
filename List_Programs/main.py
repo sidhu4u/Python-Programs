@@ -6,10 +6,11 @@
 # 6. Python program to print positive and negative numbers in a list
 # 7. Remove multiple elements from a list in Python
 # 8. Python program to print duplicates from a list of integers
-# 9. Break a list into chunks of size N in Python
+# 9. Break a list into chunks of size N in
+# 10. Generating Number-Table by giving starting and ending values.
 
 import questions
-from list_functions import list_ele, number_list, list_len, ele_exist_list, sum_ele, mul_ele, even_odd_list, pos_neg_list, rem_multiple_ele, remove_dup_list, break_list
+from list_functions import list_ele, number_list, list_len, ele_exist_list, sum_ele, mul_ele, even_odd_list, pos_neg_list, rem_multiple_ele, remove_dup_list, break_list, number_table
 
 questions
 try:
@@ -72,6 +73,13 @@ try:
         list = list_ele()
         n = int(input("size of first list tobe break (number only) : "))
         print("After Breaking lists = ", break_list(list, n))
+
+    elif choice == 10:
+        print("Generating the 'Number-table' by given starting and ending value")
+        Range1 = abs(int(input("Enter the starting(lower bound) number : ")))
+        Range2 = abs(int(input("Enter the ending(upper bound) number : ")))
+        for table in number_table(Range1, Range2):
+            print(table)
 
     else:
         print("Wrong Choice!")

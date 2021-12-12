@@ -11,3 +11,4 @@
 7. Remove multiple elements from a list in Python
 8. Python program to print duplicates from a list of integers
 9. Break a list into chunks of size N in Python
+10. Generating Number-Table by giving starting and ending values.
