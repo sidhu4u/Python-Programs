@@ -6,4 +6,5 @@ print("-------------------QUESTIONS----------------------\n\
 in a Given String\n\
 5.Padding left and right of the string with given symbol using python\n\
 6.Remove all punctuations marks from a given string in Python\n\
-7.Count the number of times each words appeared in given string using Python")
+7.Count the number of times each words appeared in given string using Python\n\
+8.Generate Random strings until the given string generate.")

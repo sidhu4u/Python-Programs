@@ -1,4 +1,4 @@
-from strfun import reverse, charremove, substring, padding, remove_punctuations, count_duplicate
+from strfun import reverse, charremove, substring, padding, remove_punctuations, count_duplicate, string_found
 
 
 def pgm1():
@@ -43,12 +43,18 @@ def pgm6():
 def pgm7():
     s = input("Enter String or word :")
     res = count_duplicate(s)
-    print(len(res[0]))
     out = ''
     print("Each character count :")
     for i in range(len(res[0])):
         out += f"{res[0][i]} = {res[1][i]} , "
     return out
+
+
+def pgm8():
+    s = input("Enter String or word :")
+    return f"--------------------------\n\
+'{s}' found at count {string_found(s)}\n\
+--------------------------"
 
 
 def invalid():
@@ -62,7 +68,8 @@ question_choice = {
     '4': pgm4,
     '5': pgm5,
     '6': pgm6,
-    '7': pgm7
+    '7': pgm7,
+    '8': pgm8
 }
 
 

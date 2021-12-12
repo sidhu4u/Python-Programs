@@ -1,5 +1,6 @@
 from math import ceil
 import string
+import random
 
 
 def reverse(s):
@@ -48,3 +49,16 @@ def count_duplicate(ss):
     for i in s:
         cnt.append(ss.count(i))
     return s, cnt
+
+
+def string_found(s):
+    c = 0
+    while True:
+        w = ''
+        for name in range(len(s)):
+            w += str(random.choice(s))
+        print(w)
+        c += 1
+        if w == s:
+            break
+    return c
